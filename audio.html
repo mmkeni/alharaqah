@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  
+  <title>alharaqah</title>
+  
+
+<script defer src="/your-path-to-fontawesome/js/all.js"></script>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="/alharaqah/index.css">  
+
+   <script src="https://kit.fontawesome.com/b4b0d48f00.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+
+    *{
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+    .container{
+        background:whitesmoke;
+    }
+
+    .container .heading{
+        font-size: 3rem;
+        padding: 2rem o;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0.5rem 1rem #000;
+        color: burlywood;
+    }
+
+    .container .music-container{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .container .music-container .box{
+        height: 16rem;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        background: #f9f9f9;
+        border-radius: 1rem;
+        box-shadow: 0.5rem 1rem #000;
+        overflow: hidden;
+        margin: 2rem;
+    }
+
+    .container .music-container .box .image{
+        height: 100%;
+        width: 25%;
+    }
+
+    .container .music-container .box .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container .music-container .box .music{
+        width: 75%;
+    }
+
+    .container .music-container .box .music audio{
+        width: 100%;
+        outline: none;
+    }
+
+    .container .music .box .music audio::-webkit-media-controls-eclosure{
+        background: none;
+    }
+    
+    @media (max-width:600px){
+        .container.music-container .box{
+            height: 27rem;
+            width: 90%;
+            flex-flow: column;
+        }
+
+        .container .music-container .box .image{
+            height: 80%;
+            width: 100%;
+        }
+
+         .container .music-container .box .music{
+            height: 20%;
+            width: 100%;
+        }
+    }
+
+
+
+</style>
+
+</head>
+
+<body>
+
+    <section id="title">
+      <div class="container-fluid">
+  
+     
+  
+      <!-- Nav Bar -->
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="">AWI</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+      
+      <ul class="navbar-nav ml-auto" >
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="audio.html">Audio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="video.html">Video</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          
+
+      </ul>
+       </div>
+  </nav>
+  
+  
+      <!-- Title -->
+  
+      <div class="row">
+        <div class="col-lg-6" style="color:white;">
+            <h1>AIU Audio Gallery</h1>
+            <!-- <button class="btn btn-lg btn-dark  download-button" type="button "><i class="fab fa-apple"> </i> Download</button>
+            <button class="btn btn-lg btn-outline-light download-button" type="button"><i class="fas fa-envelope"></i> Download</button> -->
+        </div>
+        
+      
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+      <div class="heading">Get Your Favorites Preahes Here.</div>
+
+      <div class="music-container">
+          <div class="box">
+              <div class="image">
+                  <img src="/alharaqah/images//FB_IMG_16345563286795421.jpg" alt="kls">
+              </div>
+              <div class="music">
+                  <audio src="/alharaqah/audios/sheriff 39.mp3" controls></audio> <p>
+                  <h3>sheriff 39.mp3</h3>
+              </div>
+          </div>
+
+      </div>
+      <div class="music-container">
+        <div class="box">
+            <div class="image">
+                <img src="/alharaqah/images/FB_IMG_16334692125455309.jpg" alt="kls">
+            </div>
+            <div class="music">
+                <audio src="/alharaqah/audios/SHIEKH ABDLKBIR.mp3" controls></audio>
+                <h3>SHIEKH ABDLKBIR.mp3</h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="music-container">
+      <div class="box">
+          <div class="image">
+              <img src="/alharaqah/images/FB_IMG_16345562821999396.jpg" alt="kls">
+          </div>
+          <div class="music">
+              <audio src="/alharaqah/audios/sheriff 7.mp3" controls></audio>
+              <h3>sheriff 7.mp3</h3>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="music-container">
+            <div class="box">
+                <div class="image">
+                    <img src="/alharaqah/images/babakls.jpg" alt="kls">
+                </div>
+                <div class="music">
+                    <audio src="/alharaqah/audios/Sherif Hutuba juma'a.mp3" controls></audio>
+                    <h3>Sherif Hutuba juma'a.mp3</h3>
+                </div>
+            </div> 
+        </div>
+
+        <div class="music-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="/alharaqah/images/FB_IMG_16345562632858875.jpg" alt="kls">
+                    </div>
+                    <div class="music">
+                        <audio src="/alharaqah/audios/Sherif Abdulkabiru-Tr.5.mp3" controls></audio>
+                        <h3>Sherif Abdulkabiru-Tr.5.mp3</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music-container">
+                    <div class="box">
+                        <div class="image">
+                            <img src="/alharaqah/images/FB_IMG_16323423026451868.jpg" alt="kls">
+                        </div>
+                        <div class="music">
+                            <audio src="/alharaqah/audios/Mjls. Aal ' Uraiqh.mp3" controls></audio>
+                            <h3>Mjls. Aal ' Uraiqh.mp3</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="music-container">
+                        <div class="box">
+                            <div class="image">
+                                <img src="/alharaqah/images/FB_IMG_16345563393793345.jpg" alt="kls">
+                            </div>
+                            <div class="music">
+                                <audio src="/alharaqah/audios/GAUSU   ZAMANI  .mp3" controls></audio>
+                                <h3>GAUSU   ZAMANI  .mp3</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="music-container">
+                            <div class="box">
+                                <div class="image">
+                                    <img src="/alharaqah/images/slide0.jpg" alt="kls">
+                                </div>
+                                <div class="music">
+                                    <audio src="/alharaqah/audios/(1)sheriff ABDLKABIR-KYAUTAR ALLAH.mp3" controls></audio>
+                                    <h3>(1)sheriff ABDLKABIR-KYAUTAR ALLAH.mp3</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="music-container">
+                                <div class="box">
+                                    <div class="image">
+                                        <img src="/alharaqah/images/slide2.jpg" alt="kls">
+                                    </div>
+                                    <div class="music">
+                                        <audio src="/alharaqah/audios/24_Sherif.mp3" controls></audio>
+                                        <h3>24_Sherif.mp3</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="music-container">
+                                    <div class="box">
+                                        <div class="image">
+                                            <img src="/alharaqah/images/FB_IMG_16345562821999396.jpg" alt="kls">
+                                        </div>
+                                        <div class="music">
+                                            <audio src="/alharaqah/audios/011223122500.mp3" controls></audio>
+                                            <h3>011223122500.mp3</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="music-container">
+                                        <div class="box">
+                                            <div class="image">
+                                                <img src="/alharaqah/images/FB_IMG_16345558524146601.jpg" alt="kls">
+                                            </div>
+                                            <div class="music">
+                                                <audio src="/alharaqah/audios/021523382600.mp3" controls></audio>
+                                                <h3>021523382600.mp3</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="music-container">
+                                            <div class="box">
+                                                <div class="image">
+                                                    <img src="/alharaqah/images/FB_IMG_16345559097509366.jpg" alt="kls">
+                                                </div>
+                                                <div class="music">
+                                                    <audio src="/alharaqah/audios/021600513400.mp3" controls></audio>
+                                                    <h3>021600513400.mp3</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="music-container">
+                                                <div class="box">
+                                                    <div class="image">
+                                                        <img src="/alharaqah/images/FB_IMG_16345559303863297.jpg" alt="kls">
+                                                    </div>
+                                                    <div class="music">
+                                                        <audio src="/alharaqah/audios/1 MAULUD SHEHU TIJANI NKU.mp3" controls></audio>
+                                                        <h3>1 MAULUD SHEHU TIJANI NKU.mp3</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="music-container">
+                                                    <div class="box">
+                                                        <div class="image">
+                                                            <img src="/alharaqah/images/FB_IMG_16345559848483015.jpg" alt="kls">
+                                                        </div>
+                                                        <div class="music">
+                                                            <audio src="/alharaqah/audios/11.mp3" controls></audio>
+                                                            <h3>11.mp3</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="music-container">
+                                                        <div class="box">
+                                                            <div class="image">
+                                                                <img src="/alharaqah/images/FB_IMG_16345560055287119.jpg" alt="kls">
+                                                            </div>
+                                                            <div class="music">
+                                                                <audio src="/alharaqah/audios/12_Sheriff.mp3" controls></audio>
+                                                                <h3>12_Sheriff.mp3</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="music-container">
+                                                            <div class="box">
+                                                                <div class="image">
+                                                                    <img src="/alharaqah/images/FB_IMG_16345560419857633.jpg" alt="kls">
+                                                                </div>
+                                                                <div class="music">
+                                                                    <audio src="/alharaqah/audios/13_Sheriff_1.mp3" controls></audio>
+                                                                    <h3>13_Sheriff_1.mp3</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        
+                                                        <div class="music-container">
+                                                                <div class="box">
+                                                                    <div class="image">
+                                                                        <img src="/alharaqah/images/FB_IMG_16345561550379816.jpg" alt="kls">
+                                                                    </div>
+                                                                    <div class="music">
+                                                                        <audio src="/alharaqah/audios/14_Sheriff.mp3" controls></audio>
+                                                                        <h3>14_Sheriff.mp3</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="music-container">
+                                                                    <div class="box">
+                                                                        <div class="image">
+                                                                            <img src="/alharaqah/images/FB_IMG_16345565702262614.jpg" alt="kls">
+                                                                        </div>
+                                                                        <div class="music">
+                                                                            <audio src="/alharaqah/audios/16_Sheriff.mp3" controls></audio>
+                                                                            <h3>16_Sheriff.mp3</h3>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="music-container">
+                                                                        <div class="box">
+                                                                            <div class="image">
+                                                                                <img src="/alharaqah/images/FB_IMG_16345563614567395.jpg" alt="kls">
+                                                                            </div>
+                                                                            <div class="music">
+                                                                                <audio src="/alharaqah/audios/2017 NKU MAJILISI-1.mp3" controls></audio>
+                                                                                <h3>2017 NKU MAJILISI-1.mp3</h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                
+                                                                    <div class="music-container">
+                                                                            <div class="box">
+                                                                                <div class="image">
+                                                                                    <img src="/alharaqah/images/FB_IMG_16345563447718329.jpg" alt="kls">
+                                                                                </div>
+                                                                                <div class="music">
+                                                                                    <audio src="/alharaqah/audios/SHIEKH ABDLKBIR.mp3" controls></audio>
+                                                                                    <h3>SHIEKH ABDLKBIR.mp3</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                
+                                                                        <div class="music-container">
+                                                                                <div class="box">
+                                                                                    <div class="image">
+                                                                                        <img src="/alharaqah/images/FB_IMG_16345563393793345.jpg" alt="kls">
+                                                                                    </div>
+                                                                                    <div class="music">
+                                                                                        <audio src="/alharaqah/audios/sheriff 7.mp3" controls></audio>
+                                                                                        <h3>sheriff 7.mp3</h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="music-container">
+                                                                                    <div class="box">
+                                                                                        <div class="image">
+                                                                                            <img src="/alharaqah/images/FB_IMG_16345563286795421.jpg" alt="kls">
+                                                                                        </div>
+                                                                                        <div class="music">
+                                                                                            <audio src="/alharaqah/audios/sheriff 39.mp3" controls></audio>
+                                                                                            <h3>sheriff 39.mp3</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                
+                                                                                <div class="music-container">
+                                                                                        <div class="box">
+                                                                                            <div class="image">
+                                                                                                <img src="/alharaqah/images/FB_IMG_16345563168130829.jpg" alt="kls">
+                                                                                            </div>
+                                                                                            <div class="music">
+                                                                                                <audio src="/alharaqah/audios/Sherif Hutuba juma'a.mp3" controls></audio>
+                                                                                                <h3>Sherif Hutuba juma'a.mp3</h3>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                
+                                                                                    <div class="music-container">
+                                                                                            <div class="box">
+                                                                                                <div class="image">
+                                                                                                    <img src="/alharaqah/images/FB_IMG_16345562821999396.jpg" alt="kls">
+                                                                                                </div>
+                                                                                                <div class="music">
+                                                                                                    <audio src="/alharaqah/audios/Sherif Abdulkabiru-Tr.5.mp3" controls></audio>
+                                                                                                    <h3>Sherif Abdulkabiru-Tr.5.mp3</h3>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                
+                                                                                        <div class="music-container">
+                                                                                                <div class="box">
+                                                                                                    <div class="image">
+                                                                                                        <img src="/alharaqah/images/FB_IMG_16345562632858875.jpg" alt="kls">
+                                                                                                    </div>
+                                                                                                    <div class="music">
+                                                                                                        <audio src="/alharaqah/audios/Mjls. Aal ' Uraiqh.mp3" controls></audio>
+                                                                                                        <h3>Mjls. Aal ' Uraiqh.mp3</h3>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                
+                                                                                            
+                                                                                            <div class="music-container">
+                                                                                                    <div class="box">
+                                                                                                        <div class="image">
+                                                                                                            <img src="/alharaqah/images/FB_IMG_16345562077169826.jpg" alt="kls">
+                                                                                                        </div>
+                                                                                                        <div class="music">
+                                                                                                            <audio src="/alharaqah/audios/GAUSU   ZAMANI  .mp3" controls></audio>
+                                                                                                            <h3>GAUSU   ZAMANI  .mp3</h3>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="music-container">
+                                                                                                        <div class="box">
+                                                                                                            <div class="image">
+                                                                                                                <img src="/alharaqah/images/FB_IMG_16345561550379816.jpg" alt="kls">
+                                                                                                            </div>
+                                                                                                            <div class="music">
+                                                                                                                <audio src="/alharaqah/audios/DAKANI MOULID2.mp3" controls></audio>
+                                                                                                                <h3>DAKANI MOULID2.mp3</h3>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="music-container">
+                                                                                                            <div class="box">
+                                                                                                                <div class="image">
+                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345560419857633.jpg" alt="kls">
+                                                                                                                </div>
+                                                                                                                <div class="music">
+                                                                                                                    <audio src="/alharaqah/audios/CHUKALI BUARI.mp3" controls></audio>
+                                                                                                                    <h3>CHUKALI BUARI.mp3</h3>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="music-container">
+                                                                                                                <div class="box">
+                                                                                                                    <div class="image">
+                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345560055287119.jpg" alt="kls">
+                                                                                                                    </div>
+                                                                                                                    <div class="music">
+                                                                                                                        <audio src="/alharaqah/audios/CHITER Patigh.mp3" controls></audio>
+                                                                                                                        <h3>CHITER Patigh.mp3</h3>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="music-container">
+                                                                                                                    <div class="box">
+                                                                                                                        <div class="image">
+                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345559848483015.jpg" alt="kls">
+                                                                                                                        </div>
+                                                                                                                        <div class="music">
+                                                                                                                            <audio src="/alharaqah/audios/BUHARI.mp3" controls></audio>
+                                                                                                                            <h3>BUHARI.mp3</h3>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                
+                                                                                                                <div class="music-container">
+                                                                                                                        <div class="box">
+                                                                                                                            <div class="image">
+                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345559097509366.jpg" alt="kls">
+                                                                                                                            </div>
+                                                                                                                            <div class="music">
+                                                                                                                                <audio src="/alharaqah/audios/Buari(1).mp3" controls></audio>
+                                                                                                                                <h3>Buari(1).mp3</h3>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                
+                                                                                                                    <div class="music-container">
+                                                                                                                            <div class="box">
+                                                                                                                                <div class="image">
+                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345558923844808.jpg" alt="kls">
+                                                                                                                                </div>
+                                                                                                                                <div class="music">
+                                                                                                                                    <audio src="/alharaqah/audios/BOKU.mp3" controls></audio>
+                                                                                                                                    <h3>BOKU.mp3</h3>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                
+                                                                                                                        <div class="music-container">
+                                                                                                                                <div class="box">
+                                                                                                                                    <div class="image">
+                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345558524146601.jpg" alt="kls">
+                                                                                                                                    </div>
+                                                                                                                                    <div class="music">
+                                                                                                                                        <audio src="/alharaqah/audios/boku maulud.mp3" controls></audio>
+                                                                                                                                        <h3>boku maulud.mp3</h3>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                
+                                                                                                                            <div class="music-container">
+                                                                                                                                    <div class="box">
+                                                                                                                                        <div class="image">
+                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345558409140354.jpg" alt="kls">
+                                                                                                                                        </div>
+                                                                                                                                        <div class="music">
+                                                                                                                                            <audio src="/alharaqah/audios/Bida maulud.mp3" controls></audio>
+                                                                                                                                            <h3>Bida maulud.mp3</h3>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                
+                                                                                                                                <div class="music-container">
+                                                                                                                                        <div class="box">
+                                                                                                                                            <div class="image">
+                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                            </div>
+                                                                                                                                            <div class="music">
+                                                                                                                                                <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+
+                                                                                                                                    <div class="music-container">
+                                                                                                                                            <div class="box">
+                                                                                                                                                <div class="image">
+                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345558202066349.jpg" alt="kls">
+                                                                                                                                                </div>
+                                                                                                                                                <div class="music">
+                                                                                                                                                    <audio src="/alharaqah/audios/AUD-20200531-WA0001.mp3" controls></audio>
+                                                                                                                                                    <h3>AUD-20200531-WA0001.mp3</h3>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+
+                                                                                                                                        <div class="music-container">
+                                                                                                                                                <div class="box">
+                                                                                                                                                    <div class="image">
+                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345556960779851.jpg" alt="kls">
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="music">
+                                                                                                                                                        <audio src="/alharaqah/audios/AUD-20200530-WA0006.mp3" controls></audio>
+                                                                                                                                                        <h3>AUD-20200530-WA0006.mp3</h3>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+
+                                                                                                                                            <div class="music-container">
+                                                                                                                                                    <div class="box">
+                                                                                                                                                        <div class="image">
+                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345556308089020.jpg" alt="kls">
+                                                                                                                                                        </div>
+                                                                                                                                                        <div class="music">
+                                                                                                                                                            <audio src="/alharaqah/audios/AUD-20200504-WA0001.mp3" controls></audio>
+                                                                                                                                                            <h3>AUD-20200504-WA0001.mp3</h3>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+
+                                                                                                                                                <div class="music-container">
+                                                                                                                                                        <div class="box">
+                                                                                                                                                            <div class="image">
+                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345556098418154.jpg" alt="kls">
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="music">
+                                                                                                                                                                <audio src="/alharaqah/audios/AUD-20200504-WA0000.mp3" controls></audio>
+                                                                                                                                                                <h3>AUD-20200504-WA0000.mp3</h3>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+
+                                                                                                                                                    <div class="music-container">
+                                                                                                                                                            <div class="box">
+                                                                                                                                                                <div class="image">
+                                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345555930507562.jpg" alt="kls">
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="music">
+                                                                                                                                                                    <audio src="/alharaqah/audios/AUD-20181212-WA0003.mp3" controls></audio>
+                                                                                                                                                                    <h3>AUD-20181212-WA0003.mp3</h3>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+
+                                                                                                                                                        <div class="music-container">
+                                                                                                                                                                <div class="box">
+                                                                                                                                                                    <div class="image">
+                                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345555771908076.jpg" alt="kls">
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="music">
+                                                                                                                                                                        <audio src="/alharaqah/audios/AUD-20181212-WA0002.mp3" controls></audio>
+                                                                                                                                                                        <h3>AUD-20181212-WA0002.mp3</h3>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+
+                                                                                                                                                            <div class="music-container">
+                                                                                                                                                                    <div class="box">
+                                                                                                                                                                        <div class="image">
+                                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345555703886175.jpg" alt="kls">
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <div class="music">
+                                                                                                                                                                            <audio src="/alharaqah/audios/AUD-20181212-WA0001.mp3" controls></audio>
+                                                                                                                                                                            <h3>AUD-20181212-WA0001.mp3</h3>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+
+                                                                                                                                                                <div class="music-container">
+                                                                                                                                                                        <div class="box">
+                                                                                                                                                                            <div class="image">
+                                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345555479316465.jpg" alt="kls">
+                                                                                                                                                                            </div>
+                                                                                                                                                                            <div class="music">
+                                                                                                                                                                                <audio src="/alharaqah/audios/AUD-20180117-WA0061.mp3" controls></audio>
+                                                                                                                                                                                <h3>AUD-20180117-WA0061.mp3</h3>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+
+                                                                                                                                                                    <div class="music-container">
+                                                                                                                                                                            <div class="box">
+                                                                                                                                                                                <div class="image">
+                                                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345555272904417.jpg" alt="kls">
+                                                                                                                                                                                </div>
+                                                                                                                                                                                <div class="music">
+                                                                                                                                                                                    <audio src="/alharaqah/audios/AUD-20180106-WA0016.mp3" controls></audio>
+                                                                                                                                                                                    <h3>AUD-20180106-WA0016.mp3</h3>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+
+                                                                                                                                                                        <div class="music-container">
+                                                                                                                                                                                <div class="box">
+                                                                                                                                                                                    <div class="image">
+                                                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345555123176721.jpg" alt="kls">
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                    <div class="music">
+                                                                                                                                                                                        <audio src="/alharaqah/audios/AUD-20170305-WA0012.mp3" controls></audio>
+                                                                                                                                                                                        <h3>AUD-20170305-WA0012.mp3</h3>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+
+                                                                                                                                                                            <div class="music-container">
+                                                                                                                                                                                    <div class="box">
+                                                                                                                                                                                        <div class="image">
+                                                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345555039678794.jpg" alt="kls">
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="music">
+                                                                                                                                                                                            <audio src="/alharaqah/audios/AUD-20170224-WA0000.mp3" controls></audio>
+                                                                                                                                                                                            <h3>AUD-20170224-WA0000.mp3</h3>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+
+                                                                                                                                                                                <div class="music-container">
+                                                                                                                                                                                        <div class="box">
+                                                                                                                                                                                            <div class="image">
+                                                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345554890148207.jpg" alt="kls">
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                            <div class="music">
+                                                                                                                                                                                                <audio src="/alharaqah/audios/AUD-20160807-WA0002.mp3" controls></audio>
+                                                                                                                                                                                                <h3>AUD-20160807-WA0002.mp3</h3>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+
+                                                                                                                                                                                    <div class="music-container">
+                                                                                                                                                                                            <div class="box">
+                                                                                                                                                                                                <div class="image">
+                                                                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345554737229284.jpg" alt="kls">
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                                <div class="music">
+                                                                                                                                                                                                    <audio src="/alharaqah/audios/AUD-20160713-WA0008.mp3" controls></audio>
+                                                                                                                                                                                                    <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                        <div class="music-container">
+                                                                                                                                                                                                <div class="box">
+                                                                                                                                                                                                    <div class="image">
+                                                                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345554617745001.jpg" alt="kls">
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                    <div class="music">
+                                                                                                                                                                                                        <audio src="/alharaqah/audios/AUD-20160322-WA0001.mp3" controls></audio>
+                                                                                                                                                                                                        <h3>AUD-20160322-WA0001.mp3</h3>
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                            </div>
+
+                                                                                                                                                                                            <div class="music-container">
+                                                                                                                                                                                                    <div class="box">
+                                                                                                                                                                                                        <div class="image">
+                                                                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345554526286206.jpg" alt="kls">
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                        <div class="music">
+                                                                                                                                                                                                            <audio src="/alharaqah/audios/ANNAB KUFAR ALLHA.mp3" controls></audio>
+                                                                                                                                                                                                            <h3>ANNAB KUFAR ALLHA.mp3</h3>
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                </div>
+
+                                                                                                                                                                                                <div class="music-container">
+                                                                                                                                                                                                        <div class="box">
+                                                                                                                                                                                                            <div class="image">
+                                                                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345554376171307.jpg" alt="kls">
+                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                            <div class="music">
+                                                                                                                                                                                                                <audio src="/alharaqah/audios/An.am Maulaya.mp3" controls></audio>
+                                                                                                                                                                                                                <h3>An.am Maulaya.mp3</h3>
+                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    </div>
+
+                                                                                                                                                                                                    <div class="music-container">
+                                                                                                                                                                                                            <div class="box">
+                                                                                                                                                                                                                <div class="image">
+                                                                                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345554046435956.jpg" alt="kls">
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                <div class="music">
+                                                                                                                                                                                                                    <audio src="/alharaqah/audios/AMANTANA ASINATAINI.mp3" controls></audio>
+                                                                                                                                                                                                                    <h3>AMANTANA ASINATAINI.mp3</h3>
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                                        <div class="music-container">
+                                                                                                                                                                                                                <div class="box">
+                                                                                                                                                                                                                    <div class="image">
+                                                                                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345553200936220.jpg" alt="kls">
+                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                    <div class="music">
+                                                                                                                                                                                                                        <audio src="/alharaqah/audios/AL-URAIQAH-GAUSIYYA.mp3" controls></audio>
+                                                                                                                                                                                                                        <h3>AL-URAIQAH-GAUSIYYA.mp3</h3>
+                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                            </div>
+
+                                                                                                                                                                                                            <div class="music-container">
+                                                                                                                                                                                                                    <div class="box">
+                                                                                                                                                                                                                        <div class="image">
+                                                                                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345552650479740.jpg" alt="kls">
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                        <div class="music">
+                                                                                                                                                                                                                            <audio src="/alharaqah/audios/Akan aluwa.mp3" controls></audio>
+                                                                                                                                                                                                                            <h3>Akan aluwa.mp3</h3>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                </div>
+
+                                                                                                                                                                                                                <div class="music-container">
+                                                                                                                                                                                                                        <div class="box">
+                                                                                                                                                                                                                            <div class="image">
+                                                                                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345551179747841.jpg" alt="kls">
+                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                            <div class="music">
+                                                                                                                                                                                                                                <audio src="/alharaqah/audios/AGAIE 2017.mp3" controls></audio>
+                                                                                                                                                                                                                                <h3>audios/AGAIE 2017.mp3</h3>
+                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                    </div>
+
+                                                                                                                                    <div class="music-container">
+                                                                                                                                        <div class="box">
+                                                                                                                                            <div class="image">
+                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345550897198723.jpg" alt="kls">
+                                                                                                                                            </div>
+                                                                                                                                            <div class="music">
+                                                                                                                                                <audio src="/alharaqah/audios/Aduwa Sherif.mp3" controls></audio>
+                                                                                                                                                <h3>Aduwa Sherif.mp3</h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+
+                                                                                                                                    <div class="music-container">
+                                                                                                                                            <div class="box">
+                                                                                                                                                <div class="image">
+                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345550757938620.jpg" alt="kls">
+                                                                                                                                                </div>
+                                                                                                                                                <div class="music">
+                                                                                                                                                    <audio src="/alharaqah/audios/25_Sherif.mp3" controls></audio>
+                                                                                                                                                    <h3>25_Sherif.mp3</h3>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+
+                                                                                                                                        <div class="music-container">
+                                                                                                                                                <div class="box">
+                                                                                                                                                    <div class="image">
+                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345549438553137.jpg" alt="kls">
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="music">
+                                                                                                                                                        <audio src="/alharaqah/audios/24_Sherif.mp3" controls></audio>
+                                                                                                                                                        <h3>24_Sherif.mp3</h3>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+
+                                                                                                                                            <div class="music-container">
+                                                                                                                                                    <div class="box">
+                                                                                                                                                        <div class="image">
+                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345548449260815.jpg" alt="kls">
+                                                                                                                                                        </div>
+                                                                                                                                                        <div class="music">
+                                                                                                                                                            <audio src="/alharaqah/audios/235114_16032019.mp3" controls></audio>
+                                                                                                                                                            <h3>235114_16032019.mp3</h3>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+
+                                                                                                                                                <div class="music-container">
+                                                                                                                                                        <div class="box">
+                                                                                                                                                            <div class="image">
+                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345548373096037.jpg" alt="kls">
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="music">
+                                                                                                                                                                <audio src="/alharaqah/audios/" controls></audio>
+                                                                                                                                                                <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+
+                                                                                                                                                    <div class="music-container">
+                                                                                                                                                            <div class="box">
+                                                                                                                                                                <div class="image">
+                                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                                                </div>
+                                                                                                                                                                <div class="music">
+                                                                                                                                                                    <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                                    <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+
+                                                                                                                                                        <div class="music-container">
+                                                                                                                                                                <div class="box">
+                                                                                                                                                                    <div class="image">
+                                                                                                                                                                        <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="music">
+                                                                                                                                                                        <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                                        <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+
+                                                                                                                                                            <div class="music-container">
+                                                                                                                                                                    <div class="box">
+                                                                                                                                                                        <div class="image">
+                                                                                                                                                                            <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <div class="music">
+                                                                                                                                                                            <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                                            <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+
+                                                                                                                                                                <div class="music-container">
+                                                                                                                                                                        <div class="box">
+                                                                                                                                                                            <div class="image">
+                                                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                                                            </div>
+                                                                                                                                                                            <div class="music">
+                                                                                                                                                                                <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                                                <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+
+                                                                                                                                                                    <div class="music-container">
+                                                                                                                                        <div class="box">
+                                                                                                                                            <div class="image">
+                                                                                                                                                <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                            </div>
+                                                                                                                                            <div class="music">
+                                                                                                                                                <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+
+                                                                                                                                    <div class="music-container">
+                                                                                                                                            <div class="box">
+                                                                                                                                                <div class="image">
+                                                                                                                                                    <img src="/alharaqah/images/FB_IMG_16345558295924657.jpg" alt="kls">
+                                                                                                                                                </div>
+                                                                                                                                                <div class="music">
+                                                                                                                                                    <audio src="/alharaqah/audios/BABA SHERIF.mp3" controls></audio>
+                                                                                                                                                    <h3>BABA SHERIF.mp3</h3>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                                                                                                                                                                                   
+                                
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+  </div>
+ 
+
+
+  
+      
+  </body>
+  </html>
